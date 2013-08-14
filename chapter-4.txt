@@ -1,0 +1,13 @@
+
+----------------------------------------------
+// Load an html file
+String html = loadFileFromSDCard("file:///sdcard/oreilly/book/index.html");
+WebView.loadDataWithBaseURL("", html, "text/html", "UTF-8", null);
+
+Note:
+The file name specified for the content type is incorrect. 
+As for the functions on page 67, the functions can be derived 
+from code snippet on page 66. 
+The loadFileFromSDCard() and loadFileFromAssets() functions 
+on page 67 are just for demonstration purposes.
+----------------------------------------------
