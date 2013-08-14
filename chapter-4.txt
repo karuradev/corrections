@@ -1,5 +1,10 @@
 
-----------------------------------------------
+---------------------- PAGE 63 ------------------------
+WebView webView = new WebView(this);
+contentView.addView(webView);
+-------------------------------------------------------
+
+---------------------- PAGE 67 ------------------------
 // Load an html file
 String html = loadFileFromSDCard("file:///sdcard/oreilly/book/index.html");
 WebView.loadDataWithBaseURL("", html, "text/html", "UTF-8", null);
@@ -10,4 +15,4 @@ As for the functions on page 67, the functions can be derived
 from code snippet on page 66. 
 The loadFileFromSDCard() and loadFileFromAssets() functions 
 on page 67 are just for demonstration purposes.
-----------------------------------------------
+-------------------------------------------------------
