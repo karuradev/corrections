@@ -20,3 +20,17 @@ on page 67 are just for demonstration purposes.
 The word "bug" is misspelled as "bus" in the warning section 
 towards to bottom. It is supposed to be "bug".
 -------------------------------------------------------
+
+
+---------------------- PAGE 72 ------------------------
+// missing getContents() function
+function getContents(inputStream) {
+	var contents = '';
+	var buffer = inputStream.read();
+	while (buffer != -1) {
+		contents += String.fromCharCode(buffer);
+		buffer = inputStream.read();
+	}
+	return contents;
+}
+-------------------------------------------------------
